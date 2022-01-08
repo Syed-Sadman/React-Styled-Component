@@ -12,7 +12,7 @@ function App() {
       <div>
         <br/>
       </div>
-      <FancyButton>Fancy Button</FancyButton>
+      <FancyButton as='a'>Fancy Button</FancyButton>
     </div>
 
   );
