@@ -1,20 +1,14 @@
-import StyleButton, { FancyButton } from "./components/Button/Button";
-
+//import StyleButton, { FancyButton } from "./components/Button/Button";
+import TaskForm from "./components/IT-G/TaskForm";
 
 function App() {
   return (
-    <div className="App">
-      <StyleButton>Button</StyleButton>
+    <>
       <div>
-        <br/>
+        hello
+        <TaskForm />
       </div>
-      <StyleButton variant='outline'>Button</StyleButton>
-      <div>
-        <br/>
-      </div>
-      <FancyButton as='a'>Fancy Button</FancyButton>
-    </div>
-
+    </>
   );
 }
 
