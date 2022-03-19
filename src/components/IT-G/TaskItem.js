@@ -15,9 +15,9 @@ function TaskItem({ task, index, removeTask }) {
       <button className="remove-item" onClick={() => removeHandle(index)}>
         x
       </button>
-      <div className="desc">{task.desc}</div>
-      <div className="action">£{task.action}</div>
       <div className="date">{day + "/" + month + "/" + year}</div>
+      <div className="desc">{task.desc}</div>
+      <div className="price">{task.action}</div>
     </div>
   );
 }

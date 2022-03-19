@@ -32,24 +32,23 @@ function TaskForm({ task, setTask }) {
           type="date"
           name="date"
           id="date"
-          placeholder="task date..."
+          placeholder=" date..."
           ref={date}
         />
         <input
-          type="number"
+          type="text"
           name="desc"
           id="desc"
-          placeholder="Task Number"
+          placeholder="Comment/action"
           ref={desc}
         />
         <input
-          type="text"
-          name="action"
-          id="action"
-          placeholder="Action/Comment"
+          type="number"
+          name="task no"
+          id="task no"
+          placeholder="task no"
           ref={action}
         />
-
         <input type="submit" value="Add Task" />
       </div>
     </form>

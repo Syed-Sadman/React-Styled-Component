@@ -16,7 +16,7 @@ function TaskList({ task, setTask }) {
       {task.sort(sortByDate).map((value, index) => (
         <TaskItem
           key={index}
-          Task={value}
+          task={value}
           index={index}
           removeTask={removeTask}
         />
